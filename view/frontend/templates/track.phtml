@@ -1,0 +1,10 @@
+<?php /** @var \Geekster\CeneoTrustedReviews\Block\Checkout\Success $block */ ?>
+<?php if ($block->getEnabled() == 1) : ?>
+    <script type="text/javascript">
+        ceneo_client_email = '<?php echo $block->getCustomerEmail(); ?>';
+        ceneo_order_id = '<?php echo $block->getIncrementId(); ?>';
+        ceneo_shop_product_ids = '<?php echo $block->getProductIds(); ?>';
+        ceneo_work_days_to_send_questionnaire = <?php echo $block->getDaysToSend(); ?>;
+    </script>
+    <script type="text/javascript" src="https://ssl.ceneo.pl/transactions/track/v2/script.js?accountGuid=<?php echo $block->getGuid(); ?>" async></script>
+<?php endif; ?>
