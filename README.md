@@ -27,9 +27,9 @@ Stores -> Settings -> Configuration -> **Geekster -> Ceneo Trusted Reviews**
 ![App Screenshot](https://geekster.pl/wp-content/uploads/2023/04/ceneo-trusted-reviewspl.jpg)
 
 ### Settings
-- **GUID** - Your store ID in [Ceneo](https://shops.ceneo.pl/Account/Login?returnUrl=Reviews%2FTrustedReviews%2FInformation;instruction%3Dtrue;script%3Dtrue),
+- **GUID** - store key in [Ceneo](https://shops.ceneo.pl/Account/Login?returnUrl=Reviews%2FTrustedReviews%2FInformation;instruction%3Dtrue;script%3Dtrue),
 - **Days Number** - number of working days to send the survey,
-- **Product Identifier** - SKU or product ID.
+- **Product Identifier** - code SKU or product ID.
  
 ## License
 
