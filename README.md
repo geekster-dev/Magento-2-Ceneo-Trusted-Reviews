@@ -24,7 +24,7 @@ The module is available in the tab:
 
 Stores -> Settings -> Configuration -> **Geekster -> Ceneo Trusted Reviews**
 
-![App Screenshot](https://geekster.pl/wp-content/uploads/2023/03/magento2-ceneo-trusted-reviews.jpg)
+![App Screenshot](https://geekster.pl/wp-content/uploads/2023/04/ceneo-trusted-reviewspl.jpg)
 
 ### Settings
 - **GUID** - Your store ID in [Ceneo](https://shops.ceneo.pl/Account/Login?returnUrl=Reviews%2FTrustedReviews%2FInformation;instruction%3Dtrue;script%3Dtrue),
