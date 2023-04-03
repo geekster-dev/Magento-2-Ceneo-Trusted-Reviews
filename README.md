@@ -16,6 +16,7 @@ git clone https://github.com/geekster-dev/Magento2-Ceneo-Trusted-Reviews.git
 ```bash
 php bin/magento module:enable Geekster_CeneoTrustedReviews
 php bin/magento setup:upgrade
+php bin/magento cache:flush
 ```
 
 ## Documentation
