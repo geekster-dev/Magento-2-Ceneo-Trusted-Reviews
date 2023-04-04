@@ -7,7 +7,7 @@ Magento 2.2.x, 2.3.x, 2.4.x
 
 ## Installation
 
-- download ZIP archive from Github and extract to the project directory: `{Magento}/app/code/Geekster/CeneoTrustedReviews`
+- download [ZIP archive](https://github.com/geekster-dev/Magento-2-Ceneo-Trusted-Reviews/archive/refs/heads/main.zip) from Github and extract to the project directory: `{Magento}/app/code/Geekster/CeneoTrustedReviews`
 - run the following commands in Magento 2 root folder:
 ```bash
 php bin/magento module:enable Geekster_CeneoTrustedReviews
