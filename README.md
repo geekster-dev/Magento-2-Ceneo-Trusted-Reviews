@@ -1,4 +1,4 @@
-# Magento2 Ceneo Trusted Reviews
+# Ceneo.pl Trusted Reviews - Magento 2 Extension
 
 Magento integration module with the program [**Ceneo Trusted Reviews**](https://biznes.ceneo.pl/zaufane-opinie).
 
