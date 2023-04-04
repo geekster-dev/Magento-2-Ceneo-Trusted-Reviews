@@ -8,7 +8,7 @@ Magento 2.2.x, 2.3.x, 2.4.x
 ## Installation
 
 - download ZIP archive and extract to the project directory: `{Magento}/app/code/Geekster/CeneoTrustedReviews`
-- run the following commands in the Magento directory:
+- run the following commands:
 ```bash
 php bin/magento module:enable Geekster_CeneoTrustedReviews
 php bin/magento setup:upgrade
