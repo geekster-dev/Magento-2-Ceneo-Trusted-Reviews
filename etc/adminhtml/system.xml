@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="ceneotrustedreviews" translate="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Ceneo Trusted Reviews</label>
+            <tab>Geekster</tab>
+            <resource>Geekster_CeneoTrustedReviews::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>General</label>
+                <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Ceneo Trusted Reviews</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+            <group id="settings" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Settings</label>
+                <field id="guid" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>GUID</label>
+                    <comment>Ceneo Store ID</comment>
+                </field>
+                <field id="days" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Days Number</label>
+                    <comment>Working days to send the Ceneo review</comment>
+                    <validate>validate-zero-or-greater</validate>
+                </field>  
+                <field id="type_product_id" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Product Identifier</label>
+                    <source_model>Geekster\CeneoTrustedReviews\Model\Config\Source\TypeProductId</source_model>
+                </field>             
+            </group>            
+        </section>
+    </system>
+</config>

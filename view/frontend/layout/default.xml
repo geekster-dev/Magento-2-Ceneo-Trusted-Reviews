@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<body>
+    <referenceBlock name="head.additional">
+        <block class="Geekster\CeneoTrustedReviews\Block\Html\Head" 
+            name="custom.head.block" template="Geekster_CeneoTrustedReviews::html/head.phtml">
+        </block>
+    </referenceBlock>
+</body>

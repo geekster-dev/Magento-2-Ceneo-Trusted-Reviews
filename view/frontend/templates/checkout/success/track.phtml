@@ -1,0 +1,12 @@
+<?php /** @var \Geekster\CeneoTrustedReviews\Block\Checkout\Success $block */ ?>
+<?php if ($block->getEnabled()) : ?>
+    <script type="text/javascript" defer>
+    _ceneo('transaction', {
+        client_email: '<?= $block->getCustomerEmail(); ?>',
+        order_id: '<?= $block->getIncrementId(); ?>',
+        shop_products: [ <?= $block->getShopProducts(); ?> ],
+        work_days_to_send_questionnaire: <?= $block->getDaysToSend(); ?>,
+        amount: <?= $block->getAmount(); ?>
+    });
+    </script>
+<?php endif; ?>
