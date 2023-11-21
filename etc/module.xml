@@ -3,7 +3,6 @@
     <module name="Geekster_CeneoTrustedReviews" setup_version="1.0.0">
         <sequence>
             <module name="Magento_Checkout" />
-            <module name="Geekster_Checkout" />
         </sequence>
     </module>
 </config>
